@@ -1,0 +1,1 @@
+A collection of projects, experiments, and notes from my programming learning journey. This repo serves as a place to practice new concepts, test ideas, and track my progress as I explore different languages, tools, and development techniques.
