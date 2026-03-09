@@ -1,0 +1,141 @@
+# Standard Authentication
+password
+passwd
+pwd
+passphrase
+credential
+creds
+login
+secret
+user_pass
+admin_password
+root_pass
+master_key
+otp_secret
+security_code
+auth_token
+session_secret
+account_password
+pass_key
+login_secret
+
+# Database & Infrastructure
+connectionstring
+db_pass
+dbpassword
+sql_pass
+jdbc:
+mongodb://
+redis_pass
+postgres_password
+mysql_pwd
+oracle_sid
+db_url
+mongo_url
+amqp://
+rabbitmq_pass
+memcached_url
+database_url
+db_username
+db_user
+db_endpoint
+
+# APIs & Cloud Tokens
+api_key
+apikey
+access_token
+bearer
+aws_secret_access_key
+aws_access_key_id
+aws_session_token
+azure_storage_account_key
+azure_client_secret
+google_application_credentials
+gcp_service_account
+sendgrid_api
+mailchimp_key
+stripe_secret
+stripe_key
+github_token
+gitlab_token
+heroku_api_key
+slack_api_token
+slack_webhook
+discord_token
+twilio_auth_token
+twilio_sid
+algolia_api_key
+braintree_api_key
+cloudinary_url
+digitalocean_token
+facebook_app_secret
+google_maps_api_key
+hubspot_api_key
+mailgun_api_key
+pagerduty_api_key
+square_access_token
+
+# Keys & Certificates
+BEGIN RSA PRIVATE KEY
+BEGIN OPENSSH PRIVATE KEY
+BEGIN PRIVATE KEY
+PGP PRIVATE KEY BLOCK
+ssh-rsa
+xoxb-
+xoxp-
+xoxr-
+xoxs-
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+client.p12
+server.key
+cert.pem
+-----BEGIN CERTIFICATE-----
+-----BEGIN EC PRIVATE KEY-----
+-----BEGIN DSA PRIVATE KEY-----
+key_password
+private_key
+
+# CI/CD & Deployment
+jenkins_token
+circleci_token
+travis_token
+drone_token
+deployment_key
+build_secret
+sonar_token
+vault_token
+k8s_token
+
+# Config & Environment Files
+.env
+config.json
+settings.py
+web.config
+appsettings.json
+docker-compose.yml
+kubernetes.yaml
+ansible_vault
+credentials.xml
+secrets.yml
+settings.xml
+.npmrc
+.pypirc
+.netrc
+.git-credentials
+
+# Miscellaneous Sensitive Patterns
+SALT
+IV_KEY
+ENCRYPTION_KEY
+DECRYPTION_KEY
+S3_BUCKET
+S3_SECRET
+JWT_SECRET
+JWT_TOKEN
+AUTH_PASS
+REMEMBER_ME_TOKEN
+CSRF_TOKEN
+COOKIE_SECRET
