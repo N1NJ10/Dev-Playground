@@ -1,0 +1,53 @@
+site:drive.google.com "email:password" (ext:txt|ext:csv|ext:xlsx)
+site:drive.google.com "credentials.txt" inurl:/open?id=
+site:drive.google.com "database.sql" inurl:/file/d/
+site:drive.google.com "dump.7z" OR "dump.zip" OR "dump.rar"
+site:drive.google.com "passwords.xlsx" OR "credentials.xlsx"
+site:drive.google.com "user_pass" (ext:txt|ext:csv|ext:sql)
+site:drive.google.com "hash.txt" OR "hashes.txt"
+site:dropbox.com/s/ "credentials" ext:txt
+site:dropbox.com/s/ "email_pass" ext:txt
+site:dropbox.com/s/ "combo.txt" OR "combo.csv"
+site:dropbox.com/s/ "users.sql" OR "accounts.sql"
+site:dropbox.com/s/ "backup.zip" password
+site:dropbox.com/s/ "leak.zip" OR "leak.rar"
+site:dropbox.com/s/ "data.7z" credentials
+site:onedrive.live.com "password" (ext:txt|ext:sql)
+site:1drv.ms "credentials" (ext:txt|ext:xlsx)
+site:sharepoint.com "leaked_data" (ext:zip|ext:rar)
+site:live.com "dump" (ext:sql|ext:csv)
+site:github.com "API_KEY" ext:env
+site:github.com "SECRET_KEY" ext:env
+site:github.com "database_password" ext:txt
+site:github.com "credentials.json" OR "creds.json"
+site:github.com "config.yml" password:
+site:github.com ".env.example" DB_PASSWORD
+site:github.com "dump.sql" in:path
+site:github.com "leaked" ext:sql
+site:github.com "combo" ext:txt
+site:github.com "email:password" ext:csv
+site:github.com "users.csv" password
+site:github.com "passwords.txt" in:readme
+site:github.com "credentials.txt" size:>1000
+site:github.com "backup.zip" password
+site:gitlab.com "database.yml" password
+site:gitlab.com ".env" DB_PASSWORD
+site:gitlab.com "dump" ext:sql
+site:bitbucket.org "credentials" ext:env
+site:bitbucket.org "config" password ext:php
+site:pastebin.com "user:pass" ext:txt
+site:pastebin.com "mysql dump" ext:sql
+site:pastebin.com "postgresql dump" ext:sql
+site:pastebin.com "mongodb dump" ext:json
+site:pastebin.com "export" ext:csv
+site:justpaste.it "email:password"
+site:justpaste.it "username:password"
+site:justpaste.it "database dump"
+site:justpaste.it "combo list"
+site:justpaste.it "credentials.txt"
+site:justpaste.it "dump.sql"
+site:rentry.co "combo"
+site:rentry.co "credentials"
+site:rentry.co "email:password"
+site:rentry.co "dump"
+site:controlc.com password
