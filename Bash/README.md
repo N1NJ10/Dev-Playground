@@ -4,4 +4,4 @@ This directory contains Bash tooling scripts.
 
 ## Files
 
-- `Keyrings-Reader/`: contains `Keyrings-Reader.sh` and a short manual for using the script.
+- `Keyrings-Reader/`: a Bash utility that scans `/proc/keys` for `user` keys, attempts to dump them with `keyctl`, and saves successful results to local binary files.
