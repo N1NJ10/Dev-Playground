@@ -28,6 +28,7 @@ A collection of projects, experiments, and notes from my programming learning jo
 ### PowerShell
 
 - `PowerShell/`: PowerShell tooling scripts.
+- `PowerShell/PSPW/`: an in-memory WMI-based Windows process monitor for tracking process creation and command-line arguments locally or remotely.
 - `PowerShell/Invoke-WindowsSearch/`: a Windows Search index querying tool for local or remote keyword hunting.
 
 ### Bash
