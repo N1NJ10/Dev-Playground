@@ -41,3 +41,4 @@ A collection of projects, experiments, and notes from my programming learning jo
 - `TXT/Dorks.txt`: saved search dorks.
 - `TXT/searchstrings.txt`: keyword list used for search workflows.
 - `TXT/Secret-Regex`: regex-related notes or patterns.
+- `TXT/wd-wordlist.txt`: Wordlist for wordpress
